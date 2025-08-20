@@ -2,15 +2,21 @@ image:
   file: .gitpod.dockerfile
 
 tasks:
+  - name: iniciar el proyecto
+    command: npm init -y
   - name: instalar dependencias
     command: npm install
-
+  - name: instalar selenium-webdriver  
+    command: npm install selenium-webdriver chromedriver
   - name: ejecutar prueba 1
-    command: npm test Scenario1.js
+    #command: npm test Scenario1.js
+    command: node Scenario1.js
   - name: ejecutar prueba 2
-    command: npm test Scenario2.js
+    #command: npm test Scenario2.js
+    command: node Scenario2.js
   - name: ejecutar prueba 3
-    command: npm test Scenario3.js
+    #command: npm test Scenario3.js
+    command: node Scenario3.js
 ports:
   - port: 3000
     onOpen: open-browser
