@@ -1,0 +1,26 @@
+{
+  "name": "selenium-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidQuiRod/Selenium-Javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidQuiRod/Selenium-Javascript/issues"
+  },
+  "homepage": "https://github.com/DavidQuiRod/Selenium-Javascript#readme",
+  "description": "",
+  "dependencies": {
+    "selenium-webdriver": "^4.35.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^139.0.2"
+  }
+}
