@@ -3,11 +3,12 @@ image:
 
 tasks:
   - name: iniciar el proyecto
-    init: npm init -y
+    init: node --version
+    #init: npm init -y
   ##- name: instalar dependencias
    ## command: npm install
-  - name: instalar chromedriver
-    command: npm install chromedriver
+  #- name: instalar chromedriver
+  #  command: npm install chromedriver
   #- name: instalar selenium-webdriver  
     #command: npm install selenium-webdriver chromedriver
   - name: ejecutar prueba 1
