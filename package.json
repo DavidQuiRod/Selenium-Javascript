@@ -16,11 +16,11 @@
     "url": "https://github.com/DavidQuiRod/Selenium-Javascript/issues"
   },
   "homepage": "https://github.com/DavidQuiRod/Selenium-Javascript#readme",
-  "description": "",
   "dependencies": {
     "selenium-webdriver": "^4.35.0"
   },
   "devDependencies": {
     "chromedriver": "^139.0.2"
-  }
+  },
+  "description": ""
 }
