@@ -5,9 +5,12 @@ tasks:
   - name: instalar dependencias
     command: npm install
 
-  - name: ejecutar pruebas
-    command: npm test
-
+  - name: ejecutar prueba 1
+    command: npm test Scenario1.js
+  - name: ejecutar prueba 2
+    command: npm test Scenario2.js
+  - name: ejecutar prueba 3
+    command: npm test Scenario3.js
 ports:
   - port: 3000
     onOpen: open-browser
